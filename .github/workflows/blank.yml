@@ -1,0 +1,8 @@
+name: lamatic-github
+on: workflow_dispatch
+jobs:
+  lamatic-github-logging:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "i will be rich"
